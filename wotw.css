@@ -2,16 +2,15 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: arial;
-	
 }	
 
 .page {
 	width: 580px;
-	height: 720px;
+	height: 750px;
 	margin: 10px auto;
 	text-align: center;
-	font-size: 12px;
+	font-family: serif;
+	font-size: 14px;
 }
 	
 h1	{
@@ -79,6 +78,7 @@ hr {
 .definition {
 	width: 425px;
 	margin: 10px auto;
+	font-family: arial;
 }
 
 .button-group {
@@ -98,37 +98,39 @@ hr {
 	height: 35px;
 	border-radius: 5px;
 	margin: 10px;
-	background-color: darkblue;
+	background-color: #1f296c;
 	color: white;
 	font-family: helvetica;
 	font-size: 14px;
 	text-align: center;
 	text-decoration: none;
-	box-shadow: 2px 3px 4px hsl(0, 0%, 60%);
+	box-shadow: 2px -2px 4px hsl(0, 0%, 60%);
 }	
 
 .button:hover,
 .button:visited:hover {
-	background-color: royalblue;
-	color: white;
+	background-color: #a8c6e8;
+	color: #1f296c;
 }
 
 .button:active,
 .button:visited:active {
 	background-color: white;
-	color: darkblue;
+	color: #1f296c;
 }
 
 .footer {
-	font-size: 11px;
+	font-size: 12px;
+	text-align: center;
 }
 
 		
 .disclaimer {
-	width: 360px;
+	width: 400px;
 	margin: 0 auto;
 	font-size: 11px;
-	text-align: left;
+	text-align: justify;
+	color: gray;
 }
 
 .star-14 {      /* DIV for "NOT UPDATED DAILY!" */
